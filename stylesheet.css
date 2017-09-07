@@ -1,13 +1,58 @@
 #style1{
-  color: blue;
-  font-size: 50px;
+  color: white;
+  font-size: 75px;
   text-align: center;
 
 }
 
 #style2{
 
-  color : red;
-  font-size: 20px;
+  color : white;
+  text-align: center;
+  font-size: 30px;
 
 }
+
+#style3{
+
+  text-align: left;
+}
+
+#blackBar{
+
+  background-color: rgba(0,0,0,0.4);
+
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin:auto;
+    display:block;
+
+}
+
+#backGround{
+
+  background-image: url("dartmoor.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.button1 {border-radius: 8px; text-align: center; opacity: 0.5;}
+
+
+.button1:hover {
+    border-radius: 8px;
+    text-align: center;
+    opacity: 1;
+
+  }
