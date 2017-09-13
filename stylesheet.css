@@ -1,0 +1,97 @@
+#style1 {
+  color: white;
+  font-size: 75px;
+  text-align: center;
+}
+
+#style2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+#imageLinks {
+  width: 100%;
+  text-align:center;
+}
+
+#heading{
+  font-size: 30px;
+}
+#text{
+  font-size: 20px;
+}
+#team {
+  /*margin: 0 auto;
+  width 25%;*/
+  /*left: auto;*/
+  float: left ;
+  transition: all .3s ease-in-out;
+  padding= 0;
+}
+
+#team:hover{
+    transform: scale(1.25);
+}
+
+#usefulLinks {
+  /*text-align: center;*/
+  display: inline-block;
+  margin:0 auto;
+  width:225px;
+  transition: all .3s ease-in-out;
+}
+
+#usefulLinks:hover{
+    transform: scale(1.25);
+
+  }
+
+#gallery {
+  float: right;
+  transition: all .3s ease-in-out;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: bab8b8;
+}
+
+#gallery:hover{
+  transform: scale(1.25);
+
+}
+
+#blackBar {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  margin: auto;
+  display: block;
+}
+
+#backGround {
+  background-image: url("dartmoor.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.button1 {
+  border-radius: 8px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.button1:hover {
+  border-radius: 8px;
+  text-align: center;
+  opacity: 1;
+}
